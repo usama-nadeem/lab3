@@ -34,7 +34,7 @@ euclidean = function (Num1, Num2)
   {
     while(Num1 != Num2)
     {
-      if(Num1 > Num2
+      if(Num1 > Num2)
       {
         Num1 <- Num1 - Num2
       } 
