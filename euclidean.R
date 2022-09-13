@@ -1,3 +1,4 @@
+#' @description 
 #' Find euclidean dist between 2 numbers
 #' 
 #' @param Num1 A number.
@@ -13,7 +14,7 @@ euclidean = function (Num1, Num2)
     stop("Input is non-numeric")
   }
   
-  # else if (Num1 == 0 && Num2 == 0)
+  else if (Num1 == 0 && Num2 == 0)
   {
     return (0)
   }
