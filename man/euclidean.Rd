@@ -3,8 +3,7 @@
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{euclidean}
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
-}
+This funciton finds out the euclidean distance between 2 numbers}
 \usage{
 euclidean(Num1, Num2)
 }
