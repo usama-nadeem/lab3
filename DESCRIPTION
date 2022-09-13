@@ -9,3 +9,6 @@ Description: This package has two functions: finding euclidean distance and Djik
 License: NA
 RoxygenNote: 7.2.1
 Encoding: UTF-8
+Depends: 
+    R (>= 2.10)
+LazyData: true
