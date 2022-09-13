@@ -28,7 +28,7 @@ euclidean(Num1, Num2)
 %% ...
 }
 \references{
-%% ~put references to the literature/web site here ~
+https://en.wikipedia.org/wiki/Euclidean_algorithm
 }
 \author{
 %%  ~~who you are~~

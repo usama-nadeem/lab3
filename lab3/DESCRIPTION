@@ -8,3 +8,4 @@ Maintainer: Usama Nadeem <usamanadeem321@gmail.com>
 Description: This package has two functions: finding euclidean distance and Djikstra's algo implementation
 License: NA
 RoxygenNote: 7.2.1
+Encoding: UTF-8
