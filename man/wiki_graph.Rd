@@ -7,9 +7,9 @@
 \format{
 18 objects, 3 variables
 \describe{
-  \item{v1}{price, in US dollars}
-  \item{v2}{weight of the diamond, in carats}
-  \item{w}{weight of the diamond, in carats}
+  \item{v1}{Node 1}
+  \item{v2}{Node 2}
+  \item{w}{weight of edge}
   ...
 }
 }
