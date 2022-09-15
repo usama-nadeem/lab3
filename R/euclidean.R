@@ -11,6 +11,11 @@
 euclidean <-
 function (Num1, Num2)
 {
+  if (Num1 < 0 || Num2 <0)
+  {
+    Num1 <- abs(Num1)
+    Num2 <- abs(Num2)
+  }
   if ( !is.numeric(Num1) || !is.numeric(Num2) )
   {
     stop("Input is non-numeric")
