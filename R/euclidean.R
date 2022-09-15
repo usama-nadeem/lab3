@@ -2,7 +2,7 @@
 #' @description 
 #' Find greatest common divisor of given 2 numbers
 #' 
-#' @param Num1,Num2 Two numbers for which euclidean is to be calculated
+#' @param Num1,Num2 Two numbers for which greatest common divisor is to be calculated
 #' @return The greatest common divisor of `Num1` and `Num2`.
 #' @examples
 #' euclidean(1, 1)

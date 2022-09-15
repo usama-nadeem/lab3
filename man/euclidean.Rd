@@ -7,7 +7,7 @@
 euclidean(Num1, Num2)
 }
 \arguments{
-\item{Num1, Num2}{Two numbers for which euclidean is to be calculated}
+\item{Num1, Num2}{Two numbers for which greatest common divisor is to be calculated}
 }
 \value{
 The greatest common divisor of `Num1` and `Num2`.
