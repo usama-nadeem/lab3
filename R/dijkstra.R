@@ -1,4 +1,4 @@
-#' Dijkastra Algorithm implementation
+#' implementation of Dijkastra Algorithm in R
 #' @description 
 #' Find shortest path of a given node to other nodes in a graph 
 #' 
@@ -11,11 +11,12 @@
 #' 
 dijkstra <- function(graph, init_node)
 {
-  
+  #check the type of init_node
   if (class(init_node)!="numeric")
   {
     stop("Input type is not correct")
   }
+  #check for columns
   if (colnames(graph[1])!= "v1" || colnames(graph[2])!= "v2" || colnames(graph[3])!= "w" || ncol(graph) != 3)
   {
     stop("Graph does not contain v1,v2,w format")
@@ -23,6 +24,7 @@ dijkstra <- function(graph, init_node)
   
   Result_Vec<-c()
   unvisited_nodes <- unique(graph[ ,1])
+  #check for if the init_node doesnt exist in the list of nodes
   if(init_node>max(unvisited_nodes))
   {
     stop("Initial node is out of range")
@@ -50,6 +52,7 @@ dijkstra <- function(graph, init_node)
     unvisited_nodes <- unvisited_nodes[ -which(unvisited_nodes == names(node))]
   }
   vc<-c()
+  #create a vector of shortest path
   for(i in 1:length(Result_Vec)){
     vc<-append(vc,unname(Result_Vec[i]))
     

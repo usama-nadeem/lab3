@@ -13,10 +13,12 @@ euclidean(Num1, Num2)
 The greatest common divisor of `Num1` and `Num2`.
 }
 \description{
-Find greatest common divisor of given 2 numbers
+it takes two numbers and calculate the greatest common divisor of given 2 numbers
 }
 \examples{
 euclidean(1, 1)
 euclidean(10, 1)
+euclidean(100, -1000)
+euclidean(-100, 1000)
 euclidean(-10, -100)
 }
