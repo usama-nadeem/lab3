@@ -7,7 +7,9 @@
 dijkstra(graph, init_node)
 }
 \arguments{
-\item{graph, initialNode}{a dataframe containing columns v1,v2,w and a starting node}
+\item{graph}{a dataframe containing columns v1,v2,w}
+
+\item{init_node}{a starting node}
 }
 \value{
 The vector containing shortest path from starting node to other nodes in a graph
