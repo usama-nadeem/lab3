@@ -2,7 +2,8 @@
 #' @description 
 #' Find shortest path of a given node to other nodes in a graph 
 #' 
-#' @param graph,initialNode a dataframe containing columns v1,v2,w and a starting node 
+#' @param graph a dataframe containing columns v1,v2,w
+#' @param init_node a starting node  
 #' @return The vector containing shortest path from starting node to other nodes in a graph
 #' @examples
 #' dijkstra(wiki_graph, 1)
