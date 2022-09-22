@@ -8,4 +8,13 @@
 \description{
 This package has two functions: finding euclidean distance and Djikstra's algo implementation
 }
+\author{
+\strong{Maintainer}: Usama Nadeem \email{usamanadeem321@gmail.com}
+
+Authors:
+\itemize{
+  \item Muhammad Umair \email{Umair.raja.1422@gmail.com}
+}
+
+}
 \keyword{internal}

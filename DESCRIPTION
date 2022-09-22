@@ -3,8 +3,9 @@ Type: Package
 Title: Practice for making packages in R
 Version: 1.0
 Date: 2022-09-13
-Author: Usama Nadeem
-Maintainer: Usama Nadeem <usamanadeem321@gmail.com>
+Authors@R: 
+    c(person("Usama", "Nadeem", , "usamanadeem321@gmail.com", role = c("aut", "cre")), 
+    person("Muhammad", "Umair", , "Umair.raja.1422@gmail.com", role = c("aut")))
 Description: This package has two functions: finding euclidean distance and Djikstra's algo implementation
 License: NA
 RoxygenNote: 7.2.1
